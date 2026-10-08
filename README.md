@@ -14,3 +14,6 @@ V3 keeps the polished V2 visual system and prepares the feed for real public dat
 
 ## Live-data phase
 The next layer should ingest public posts from approved sources, normalize them, deduplicate them, store original links/media, assign categories, and calculate source history without presenting rumors as confirmed facts.
+
+
+V3 Salem: redesigned as a recognizable pixel-art black cat with yellow eyes, white collar, S tag, animated tail/blink/reaction states.
