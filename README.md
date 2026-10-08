@@ -1,22 +1,17 @@
-# 999 FEED — V3
+# 999 FEED — V4 Live Data
 
-**999 FEED — Powered by 999salem** is a live-style Marvel leak tracker with an editorial/X-inspired interface.
+999 FEED is a personal Marvel leak-tracking dashboard powered by 999salem.
 
-V3 keeps the polished V2 visual system and prepares the feed for real public data while keeping the experience curated.
+## V4 live feed
+- Pulls public X timelines through the public FxTwitter API.
+- Tracked handles: DanielRPK, ProjectHurts, MyTimeToShineH, Cryptic4KQual, AlexFromCC, CanWeGetToast, SpiderMan_Newz.
+- Refreshes automatically every 90 seconds while the page is open.
+- Filters posts into DOOMSDAY, SPIDER-MAN, X-MEN, MOVIES, and CASTING using keyword classification.
+- Shows real public post text, timestamps, links, and available images.
+- New posts appear behind the NEW LEAKS pill rather than interrupting the current scroll position.
+- If the live endpoint is unavailable, the feed keeps the last successful data and clearly labels the connection state rather than inventing posts.
 
-## V3 changes
-- Removed the redundant **MARVEL** navigation section — the entire feed is Marvel, so navigation now goes straight to useful categories.
-- Categories: **LIVE / DOOMSDAY / SPIDER-MAN / X-MEN / MOVIES / CASTING**.
-- Upgraded Salem mascot treatment and reactive states.
-- Strong cyan / pink / yellow holographic atmosphere.
-- Live-style feed status, new-leak notifications, source profiles, post detail modal, and mobile category drawer.
-- Mock data remains in this build until the live ingestion layer is connected.
+## Important
+This is a browser-side live feed. The 90-second refresh runs while the page is open. GitHub Pages itself does not run a 90-second server job.
 
-## Live-data phase
-The next layer should ingest public posts from approved sources, normalize them, deduplicate them, store original links/media, assign categories, and calculate source history without presenting rumors as confirmed facts.
-
-
-V3 Salem: redesigned as a recognizable pixel-art black cat with yellow eyes, white collar, S tag, animated tail/blink/reaction states.
-
-
-V3.3: Salem is now the supplied pixel-art PNG embedded directly in the interface, with transparent background, white collar, yellow eyes/tag, and site animations.
+The feed uses the public FxTwitter/FxEmbed API and is subject to that service's availability and rate limits. No X credentials are stored in this project.
