@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0d0e10">
+<title>999 FEED — Powered by 999salem</title>
+<meta name="description" content="999 FEED — live leak intelligence powered by 999salem.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="grain"></div>
+<div class="holo holo-a"></div><div class="holo holo-b"></div><div class="holo holo-c"></div>
+
+<header class="topbar">
+  <a class="brand" href="#" aria-label="999 Feed home">
+    <div class="brand-row"><span class="brand-999">999</span> <span class="brand-feed">FEED</span></div>
+    <div class="powered">Powered by <b>999salem</b></div>
+  </a>
+  <div class="top-right">
+    <div class="salem-dock" data-salem-trigger="header" title="Salem">
+      <div class="pixel-salem idle"><span class="ear l"></span><span class="ear r"></span><span class="eye l"></span><span class="eye r"></span><span class="tail"></span></div>
+    </div>
+    <div class="live"><i></i> LIVE</div>
+  </div>
+</header>
+
+<nav class="nav">
+  <button class="nav-item active" data-filter="all">LIVE</button>
+  <button class="nav-item" data-filter="doomsday">DOOMSDAY</button>
+  <button class="nav-item" data-filter="spiderman">SPIDER-MAN</button>
+  <button class="nav-item" data-filter="xmen">X-MEN</button>
+  <button class="nav-item" data-filter="movies">MOVIES</button>
+  <button class="nav-item" data-filter="casting">CASTING</button>
+</nav>
+
+<main>
+<section class="intro">
+  <div>
+    <div class="eyebrow"><span></span> MARVEL LEAK INTELLIGENCE</div>
+    <h1>What just leaked?</h1>
+  </div>
+  <div class="intro-note">Public posts. Tracked sources.<br>One constantly moving feed.</div>
+</section>
+
+<button class="new-leaks" id="newLeaks" hidden><span>↑</span> <b id="newCount">0</b> NEW LEAKS</button>
+
+<div class="layout">
+  <section class="feed" id="feed" aria-live="polite">
+  <article class="post" data-id="1"><div class="post-frame"><div class="post-head"><div class="author"><div class="avatar">DR</div><div><div class="handle">@DanielRPK <span class="xmark">𝕏</span></div><div class="time">12m ago</div></div></div><div class="tag">DOOMSDAY</div></div><div class="post-body">Hearing that Marvel has another major <strong>Avengers: Doomsday</strong> announcement planned around the next marketing push.</div><div class="post-actions"><button type="button">♡</button><button type="button">↻</button><button type="button">↗</button><button type="button" style="margin-left:auto">•••</button></div><div class="post-foot"><span class="confidence high">Tracked source</span><span class="sep">·</span><span class="confidence">PUBLIC POST</span></div></div></article>
+  <article class="post" data-id="2"><div class="post-frame"><div class="post-head"><div class="author"><div class="avatar">PH</div><div><div class="handle">@ProjectHurts <span class="xmark">𝕏</span></div><div class="time">28m ago</div></div></div><div class="tag">DOOMSDAY</div></div><div class="post-body">New <strong>Doomsday</strong> material is reportedly moving internally. Take this one as a rumor for now, but the source is saying it is tied to the next promo cycle.</div><div class="post-image"><div class="fake-scene"></div></div><div class="post-actions"><button type="button">♡</button><button type="button">↻</button><button type="button">↗</button><button type="button" style="margin-left:auto">•••</button></div><div class="post-foot"><span class="confidence high">Tracked source</span><span class="sep">·</span><span class="confidence">PUBLIC POST</span></div></div></article>
+  <article class="post" data-id="3"><div class="post-frame"><div class="post-head"><div class="author"><div class="avatar">CQ</div><div><div class="handle">@Cryptic4KQual <span class="xmark">𝕏</span></div><div class="time">41m ago</div></div></div><div class="tag">X-MEN</div></div><div class="post-body">Hearing some movement around a mutant-related project. Details are still unclear, so treat this one as unverified for now.</div><div class="post-actions"><button type="button">♡</button><button type="button">↻</button><button type="button">↗</button><button type="button" style="margin-left:auto">•••</button></div><div class="post-foot"><span class="confidence medium">Unverified</span><span class="sep">·</span><span class="confidence">PUBLIC POST</span></div></div></article>
+  <article class="post" data-id="4"><div class="post-frame"><div class="post-head"><div class="author"><div class="avatar">MT</div><div><div class="handle">@MyTimeToShineH <span class="xmark">𝕏</span></div><div class="time">1h ago</div></div></div><div class="tag">CASTING</div></div><div class="post-body">A familiar MCU name is being discussed for a role connected to the next Avengers storyline.</div><div class="post-actions"><button type="button">♡</button><button type="button">↻</button><button type="button">↗</button><button type="button" style="margin-left:auto">•••</button></div><div class="post-foot"><span class="confidence medium">Unverified</span><span class="sep">·</span><span class="confidence">PUBLIC POST</span></div></div></article>
+  <article class="post" data-id="5"><div class="post-frame"><div class="post-head"><div class="author"><div class="avatar">AC</div><div><div class="handle">@AlexFromCC <span class="xmark">𝕏</span></div><div class="time">2h ago</div></div></div><div class="tag">SPIDER-MAN</div></div><div class="post-body">Some movement around the next <strong>Spider-Man</strong> project may become public sooner than expected.</div><div class="post-actions"><button type="button">♡</button><button type="button">↻</button><button type="button">↗</button><button type="button" style="margin-left:auto">•••</button></div><div class="post-foot"><span class="confidence medium">Unverified</span><span class="sep">·</span><span class="confidence">PUBLIC POST</span></div></div></article>
+  <article class="post" data-id="6"><div class="post-frame"><div class="post-head"><div class="author"><div class="avatar">9S</div><div><div class="handle">@999salem <span class="xmark">𝕏</span></div><div class="time">3h ago</div></div></div><div class="tag">999 UPDATE</div></div><div class="post-body">999 FEED is now tracking the latest scoop cycle in one place. More sources and categories coming soon.</div><div class="post-actions"><button type="button">♡</button><button type="button">↻</button><button type="button">↗</button><button type="button" style="margin-left:auto">•••</button></div><div class="post-foot"><span class="confidence high">Tracked source</span><span class="sep">·</span><span class="confidence">PUBLIC POST</span></div></div></article>
+</section>
+  <aside class="rail">
+    <div class="rail-card">
+      <div class="rail-title">TRACKED SOURCES</div>
+      <button class="source" data-source="DanielRPK"><span class="dot high"></span><div><b>DanielRPK</b><small>High signal</small></div></button>
+      <button class="source" data-source="ProjectHurts"><span class="dot high"></span><div><b>ProjectHurts</b><small>High signal</small></div></button>
+      <button class="source" data-source="MyTimeToShineH"><span class="dot medium"></span><div><b>MyTimeToShineH</b><small>Mixed signal</small></div></button>
+      <button class="source" data-source="Cryptic4KQual"><span class="dot medium"></span><div><b>Cryptic4KQual</b><small>Mixed signal</small></div></button>
+      <button class="source" data-source="AlexFromCC"><span class="dot medium"></span><div><b>AlexFromCC</b><small>Reported scoops</small></div></button>
+    </div>
+    <div class="rail-card">
+      <div class="rail-title">FEED STATUS</div>
+      <div class="status-line"><span>Sources online</span><b>05</b></div>
+      <div class="status-line"><span>Posts today</span><b id="postsToday">24</b></div>
+      <div class="status-line"><span>Last update</span><b id="lastUpdate">now</b></div>
+      <div class="salem-rail" data-salem-trigger="rail">
+        <div class="pixel-salem sitting"><span class="ear l"></span><span class="ear r"></span><span class="eye l"></span><span class="eye r"></span><span class="tail"></span></div>
+        <span>Salem is watching.</span>
+      </div>
+    </div>
+  </aside>
+</div>
+</main>
+
+<div class="quiet" id="quiet">
+  <div class="quiet-cat"><div class="pixel-salem sleeping"><span class="ear l"></span><span class="ear r"></span><span class="eye l"></span><span class="eye r"></span><span class="tail"></span></div></div>
+  <div><b>THE FEED IS QUIET.</b><span>Salem is watching.</span></div>
+</div>
+
+<div class="mobile-drawer" id="mobileDrawer">
+  <div class="drawer-handle"></div>
+  <div class="drawer-title">999 FEED</div>
+  <div class="drawer-grid">
+    <button data-filter="all">LIVE</button>
+    <button data-filter="doomsday">DOOMSDAY</button><button data-filter="spiderman">SPIDER-MAN</button>
+    <button data-filter="xmen">X-MEN</button><button data-filter="movies">MOVIES</button>
+    <button data-filter="casting">CASTING</button>
+  </div>
+</div>
+
+<div class="modal-backdrop" id="modalBackdrop" hidden>
+  <div class="modal" id="modal"></div>
+</div>
+
+<footer><span>999 FEED</span><span>Independent project by <b>999salem</b></span></footer>
+<script src="app.js"></script>
+</body>
+</html>

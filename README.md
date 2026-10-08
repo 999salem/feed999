@@ -1,33 +1,16 @@
-# 999 FEED — V2
+# 999 FEED — V3
 
-Visual prototype for **999 FEED — Powered by 999salem**.
+**999 FEED — Powered by 999salem** is a live-style Marvel leak tracker with an editorial/X-inspired interface.
 
-V2 keeps the V1 editorial foundation and adds:
-- Much stronger cyan / pink / yellow holographic atmosphere
-- Animated holographic logo treatment
-- Animated pixel Salem in multiple locations
-- Salem idle/blink/tail behavior
-- Salem interaction state
-- New-leak shimmer + automatic test arrivals
-- X-inspired post anatomy inside a 999 FEED editorial outline
-- Post detail modal
-- Source profile modal
-- Mobile category drawer
-- Quiet-feed Salem state
-- Animated image attachment sheen
-- Responsive mobile/desktop behavior
+V3 keeps the polished V2 visual system and prepares the feed for real public data while keeping the experience curated.
 
-The feed content is still mock data. It is intentionally ready for the real ingestion/data layer next.
+## V3 changes
+- Removed the redundant **MARVEL** navigation section — the entire feed is Marvel, so navigation now goes straight to useful categories.
+- Categories: **LIVE / DOOMSDAY / SPIDER-MAN / X-MEN / MOVIES / CASTING**.
+- Upgraded Salem mascot treatment and reactive states.
+- Strong cyan / pink / yellow holographic atmosphere.
+- Live-style feed status, new-leak notifications, source profiles, post detail modal, and mobile category drawer.
+- Mock data remains in this build until the live ingestion layer is connected.
 
-## Real-data phase
-Build the ingestion layer separately from the visual layer:
-1. Source definitions
-2. Post collection
-3. Database
-4. Deduplication
-5. Media caching
-6. Source reliability history
-7. Original-post links
-8. Admin/moderation controls
-9. Automatic category detection
-10. Deployment
+## Live-data phase
+The next layer should ingest public posts from approved sources, normalize them, deduplicate them, store original links/media, assign categories, and calculate source history without presenting rumors as confirmed facts.
