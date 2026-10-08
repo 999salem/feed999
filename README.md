@@ -17,3 +17,6 @@ The next layer should ingest public posts from approved sources, normalize them,
 
 
 V3 Salem: redesigned as a recognizable pixel-art black cat with yellow eyes, white collar, S tag, animated tail/blink/reaction states.
+
+
+V3.3: Salem is now the supplied pixel-art PNG embedded directly in the interface, with transparent background, white collar, yellow eyes/tag, and site animations.
